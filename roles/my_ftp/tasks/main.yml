@@ -1,0 +1,6 @@
+---
+# tasks file for my_ftp
+- name: install ftp server
+  package:  
+   name: vsftpd
+   state: latest

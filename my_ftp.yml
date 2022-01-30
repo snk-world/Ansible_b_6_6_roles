@@ -1,0 +1,6 @@
+- name: Using my-ftp-role  
+  hosts: web    
+  become: yes
+  roles:
+    - role: my_ftp
+          
